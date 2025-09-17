@@ -45,7 +45,7 @@ const projects = [
     title: "WebScraping",
     description:
       "Web application for comparing football jersey prices on three websites: Nike, Unisport, and Foot.fr",
-    image: "/projects/",
+    image: "/projects/webscraping.png",
     tags: ["Flask", "Scrapy", "Docker"],
     demoUrl: "#",
     githubUrl: "https://github.com/jaja07/WebScrapingV2"
@@ -59,6 +59,16 @@ const projects = [
     tags: ["Flask", "Scikit Learn", "Pandas", "NumPy", "Matplotlib", "Machine Learning"],
     demoUrl: "#",
     githubUrl: "https://github.com/jaja07/Diabetes-Prediction"
+  },
+  {
+    id: 6,
+    title: "MLOPs Project",
+    description:
+      "End-to-end MLOps project for training, deploying, and monitoring a machine learning model using CI/CD pipelines and Docker.",
+    image: "/projects/mlops.jpg",
+    tags: ["Docker", "MLflow", "DVC", "Machine Learning", "CI/CD", "GitHub Actions", "FastAPI", "AWS ECS"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/jaja07/mlops-project"
   }
 ];
 
